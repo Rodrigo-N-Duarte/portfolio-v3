@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="app">
     <v-main>
       <router-view/>
     </v-main>
@@ -16,3 +16,9 @@ export default {
   }),
 }
 </script>
+
+<style>
+.app {
+    overflow-x: hidden;
+}
+</style>
