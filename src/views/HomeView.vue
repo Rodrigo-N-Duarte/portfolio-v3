@@ -1,9 +1,9 @@
 <template>
-    <v-sheet elevation="10">
+    <v-sheet elevation="10" class="mt-0" style="padding: 0">
         <v-row class="main-container">
             <v-col>
                 <NavBarDesktop/>
-                <v-row class="container-hello dark-texture-background" justify="center">
+                <v-row class="container-hello dark-texture-background pt-10" justify="center">
                     <v-col align="center">
                         <div>
                             <v-avatar size="200">
