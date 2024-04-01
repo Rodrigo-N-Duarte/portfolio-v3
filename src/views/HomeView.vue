@@ -20,7 +20,7 @@
                                 </div>
                                 <v-row>
                                     <v-col>
-                                        <h4 class="mb-3">Actually i'm working on - <span style="color: gold">Expert Code Software</span> -
+                                        <h4 class="mb-3">Actually i'm working on - <span style="color: gold">Nic-Labs Tecnologia</span> -
                                             <br>
                                             and living near Belo Horizonte, MG - Brasil</h4>
                                         <h4 class="font-weight-light mb-5">You can see my github and linkedin below:</h4>

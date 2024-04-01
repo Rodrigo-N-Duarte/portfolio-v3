@@ -21,12 +21,27 @@
                         :icon="item.icon"
                         fill-dot
                     >
-                      <v-card>
+                      <div v-if="Array.isArray(item.items)">
+                        <v-card >
+                          <div v-for="(subItem, j) in item.items" :key="j">
+                            <v-card-title>
+                              {{ subItem.title }}
+                            </v-card-title>
+                            <v-card-subtitle>
+                              {{ subItem.date }}
+                            </v-card-subtitle>
+                            <v-card-text class="bg-white text--primary">
+                              <p class="my-2">{{ subItem.content }}</p>
+                            </v-card-text>
+                          </div>
+                        </v-card>
+                      </div>
+                      <v-card v-else>
                         <v-card-title>
                           {{ item.title }}
                         </v-card-title>
                         <v-card-subtitle>
-                          {{item.date}}
+                          {{ item.date }}
                         </v-card-subtitle>
                         <v-card-text class="bg-white text--primary">
                           <p class="my-2">{{ item.content }}</p>
@@ -60,15 +75,35 @@ export default defineComponent({
     return {
       items: [
         {
+          color: 'purple',
+          icon: 'mdi-briefcase',
+          items: [
+            {
+              color: 'purple',
+              icon: 'mdi-briefcase',
+              title: "Analist - NicLabs",
+              date: "10/2023 - now",
+              content: `Working on SAP techs, as SAP Fiori and CDS Views, also with integrations on mobile devices using React Native.`
+            },
+            {
+              color: 'purple',
+              icon: 'mdi-briefcase',
+              title: "Technical - NicLabs",
+              date: "10/2023 - now",
+              content: `Working on SAP techs, as SAP Fiori.`
+            }
+          ]
+        },
+        {
           color: 'yellow',
           icon: 'mdi-briefcase',
           title: "Internship - Expert Code Software",
-          date: "03/2022 - now",
+          date: "03/2023 - 09/2023",
           content: `Working on frontend and backend on a real enterprise and software factory. Working with teams and agile methods. Being part of squads
                     and having contact with modern technologies, like VueJS, Node with Fastify, Java and Spring Framework, SQL databases, Docker.`
         },
         {
-          color: 'purple',
+          color: 'green',
           icon: 'mdi-book',
           title: "Monitor - University",
           date: "06/2022 - 12/2022",

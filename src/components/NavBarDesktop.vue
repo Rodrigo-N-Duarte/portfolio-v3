@@ -48,10 +48,6 @@ export default {
           link: '/about'
         },
         {
-          name: 'Projects',
-          link: '/projects'
-        },
-        {
           name: 'Skills',
           link: '/skills'
         },
@@ -59,21 +55,12 @@ export default {
           name: 'Experience',
           link: '/experience'
         },
-        {
-          name: 'Contact',
-          link: '/contact'
-        }
       ],
       mobileItens: [
         {
           name: '',
           link: '/',
           icon: 'mdi-home'
-        },
-        {
-          name: '',
-          link: '/projects',
-          icon: 'mdi-chart-arc'
         },
         {
           name: '',
@@ -85,11 +72,6 @@ export default {
           link: '/experience',
           icon: 'mdi-compass'
         },
-        {
-          name: '',
-          link: '/contact',
-          icon: 'mdi-phone'
-        }
       ]
     }
   },

@@ -16,8 +16,9 @@
                                     <v-img
                                             aspect-ratio="16/9"
                                             cover
-                                            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+                                            src="../assets/aboutBanner.jpg"
                                             width="80%"
+                                            height="50%"
                                     ></v-img>
                                     <v-row>
                                         <v-col cols="12" lg="2"></v-col>
@@ -28,13 +29,17 @@
                                             <h3 class="my-10 about-text"> I started my carreer on the initial months of
                                                 2021, and haven't stopping my
                                                 studies yet, and i will not, cause i love what i'm doing.</h3>
-                                            <h3 class="my-10 about-text">Today, i work on Expert Code Software, which is
+                                            <h3 class="my-10 about-text">Experience on Expert Code Software, which is
                                                 a software company and
                                                 industry and implements system for other enterprises. There we develop
                                                 and maintain web systems applications,
                                                 using the most modern framework and technologies on the moment, such as
                                                 Spring Framework, VueJS, ReactJS, Node,
                                                 Docker, K8S and cloud platforms as AWS for example.</h3>
+                                          <h3 class="my-10 about-text">But is actually, I'm working on Nic-Labs Tech, which
+                                          is a SAP Consult Enterprise. Having contact with SAP technologies such as SAP Fiori
+                                          and CDS Views. Also doing some projects in integration with SAP, but focusing on mobile
+                                          devices, using React Native.</h3>
                                         </v-col>
                                         <v-col cols="12" lg="2"></v-col>
                                     </v-row>
